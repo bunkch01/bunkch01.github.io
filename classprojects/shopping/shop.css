@@ -1,1 +1,7 @@
 body { background-color: #4DB14D; background-image: url(http://i.imgur.com/lDUqCri.jpg); }
+.meat { color: #FF0000; }
+.produce { color: #009300; }
+.canned { color: #000000; }
+.dry { color: #66ccff; }
+.dairy { color : #ffff66; }
+.purchased { list-style-type: square; text-decoration: line-through; }
