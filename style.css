@@ -1,3 +1,5 @@
-body {
-background-color: rgb(178,231,143);
-}
+body { background-color: #DEFAFA; margin: 0px; }
+header { background-color: #5C5CD6; position: fixed; width: 100%; height: 50px; text-align: center; }
+project { float: left; width: 20%; Height: 600px; background-color: #D8D8F5; }
+primary { float: left; width: 80%; Height: 600px; }
+footer { clear: both; }
