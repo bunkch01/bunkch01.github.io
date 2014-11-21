@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+<body>
+<button onclick="changeThisPageFunc();">Click this please</button>
+<p>0</p>
+<script type="text/javascript">
+counter = 0;
+changeThisPageFunc = function() {
+counter = counter + 1;
+myCount = document.querySelector('p')
+myCount.innerHTML = counter;
+myCount.style.fontSize = counter+"px";
+}
+</script>
