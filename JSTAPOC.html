@@ -1,0 +1,62 @@
+<html>
+<head>
+<title> Javascript Textual Analysis Proof of Concept</title>
+<link rel="stylesheet" href="style.css" type="text/CSS">
+<style>
+#mancounter { font-size: 18pt; }
+i { font-style: italic; }
+</style>
+</head>
+<body>
+<header>
+Javascript Textual Analysis Proof of Concept
+</header>
+<project>
+<h3>Tool Description</h3>
+<p>
+This is a proof of concept for a Javascript tool intended to for digital textual analysis. It currently has very limited
+capabilities, since it's intended simply to test if what I am considering is possible. To use, simply click the labled button
+in the primary field of this webpage
+</p>
+<p>
+The text used for this proof of concept is sourced from Shakespeare's <i>As You Like It</i>, and specifically, from
+ the FOlger Digital Editions version
+</p>
+</project>
+<primary>
+<h4>input text follows<h4>
+<p>
+You know my father hath no child but I, nor
+none is like to have; and truly, when he dies, thou
+shalt be his heir, for what he hath taken away from
+thy father perforce, I will render thee again in
+affection. By mine honor I will, and when I break
+that oath, let me turn monster. Therefore, my sweet
+Rose, my dear Rose, be merry.
+From henceforth I will, coz, and devise
+sports. Let me see—what think you of falling in
+love?
+Marry, I prithee do, to make sport withal; but
+love no man in good earnest, nor no further in
+sport neither than with safety of a pure blush thou
+mayst in honor come off again.
+What shall be our sport, then?
+Let us sit and mock the good housewife Fortune
+from her wheel, that her gifts may henceforth be
+bestowed equally.
+</p>
+<h4>Output follows</h4>
+<p>Number of times "man" appears in the text</p>
+<button onclick="countingMenFunc();">Click this to update the counter</button>
+<p id=mancounter>0</p>
+</primary>
+<script type="text/javascript">
+counter = man;
+countingMenFunc = function() {
+counter = counter + 1;
+manCount = document.querySelector('#mancounter');
+mancount.innerHTML = counter;
+}
+</script>
+</body>
+</html>
