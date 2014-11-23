@@ -9,7 +9,7 @@ i { font-style: italic; }
 </head>
 <body>
 <header>
-Javascript Textual Analysis Proof of Concept
+<h2>Javascript Textual Analysis Proof of Concept</h2>
 </header>
 <project>
 <h3>Tool Description</h3>
@@ -20,7 +20,10 @@ in the primary field of this webpage
 </p>
 <p>
 The text used for this proof of concept is sourced from Shakespeare's <i>As You Like It</i>, and specifically, from
- the FOlger Digital Editions version
+ the Folger Digital Editions version
+</p>
+<p>
+ Note: The tool is not functional yet
 </p>
 </project>
 <primary>
@@ -48,10 +51,10 @@ bestowed equally.
 <h4>Output follows</h4>
 <p>Number of times "man" appears in the text</p>
 <button onclick="countingMenFunc();">Click this to update the counter</button>
-<p id=mancounter>0</p>
+<p id=mancounter>___</p>
 </primary>
 <script type="text/javascript">
-counter = man;
+counter = 0;
 countingMenFunc = function() {
 counter = counter + 1;
 manCount = document.querySelector('#mancounter');
