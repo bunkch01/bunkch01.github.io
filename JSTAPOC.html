@@ -54,7 +54,11 @@ bestowed equally.
 <p id=mancounter>0</p>
 </primary>
 <script type="text/javascript">
-
+countingMenFunc = function() {
+ var str = "You know my father hath no child but I, nor none is like to have; and truly, when he dies, thou shalt be his heir, for what he hath taken away from thy father perforce, I will render thee again in affection. By mine honor I will, and when I break that oath, let me turn monster. Therefore, my sweet Rose, my dear Rose, be merry. sports. Let me see—what think you of falling in From henceforth I will, coz, and devise love? Marry, I prithee do, to make sport withal; but love no man in good earnest, nor no further in sport neither than with safety of a pure blush thou mayst in honor come off again. What shall be our sport, then? Let us sit and mock the good housewife Fortune from her wheel, that her gifts may henceforth be bestowed equally.";
+ var res = str.match(/man/g);
+ document.getElementByID("mancounter").innerHTML = res;
+}
 </script>
 </body>
 </html>
