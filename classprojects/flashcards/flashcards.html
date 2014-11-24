@@ -33,7 +33,7 @@
 </head>
 <body>
 <nav>
-<input type=checkbox>
+<input type=checkbox onclick="correctCount();">
 <section class="answer">
   <p>42</p>
 </section>
@@ -42,7 +42,7 @@
   </section>
   </nav>
   <nav>
-  <input type=checkbox>
+  <input type=checkbox onclick="correctCount();">
 <section class="answer">
   <p>Jerk</p>
 </section>
@@ -51,7 +51,7 @@
 </section>
 </nav>
   <nav>
-  <input type=checkbox>
+  <input type=checkbox onclick="correctCount();">
 <section class="answer">
   <p>2 eggs</p>
 </section>
@@ -59,6 +59,14 @@
   <p>How many eggs are needed to make one batch of cookies, by my usual recipe?</p>
 </section>
 </nav>
-
+<p>Correct: <thecount>0</thecount></p>
+<script type="text/javascript">
+  counter = 0;
+  correctCount = function() {
+    counter = counter + 1;
+    dasCount = document.querySelector('thecount');
+    dasCount.innerHTML = counter;
+  }
+</script>
 </body>
 </html>
