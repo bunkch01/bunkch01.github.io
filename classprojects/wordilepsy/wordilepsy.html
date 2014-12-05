@@ -1,0 +1,30 @@
+<html>
+    <head>
+    <style>
+        h1 { position: absolute; }
+        </style>
+    </head>
+<body>
+<button onclick="stop();">STAHP!!!!</button>
+    <h1>WORDS!!!!</h1>
+<script>
+  changeColor = function() {
+      red = Math.floor(Math.random()*255);
+      green = Math.floor(Math.random()*255);
+      blue = Math.floor(Math.random()*255);
+      lefX = Math.floor(Math.random()*500);
+      rigY = Math.floor(Math.random()*300);
+      colorStr = "rgb(" + red + "," + green + "," + blue + ")";
+      document.body.style.backgroundColor = colorStr;
+      myH1 = document.querySelector('h1');
+      myH1.style.top = rigY +'px';
+      myH1.style.left = lefX +'px';
+      //window.setInterval(changeColor, 1000);
+  }
+  stop = function() {
+      window.clearInterval(intId);
+  }
+  intId = window.setInterval(changeColor, 10);
+</script>
+</body>
+</html>
