@@ -1,9 +1,7 @@
 body { background-color: #DEFAFA; }
 h1 { text-align: center; }
-yourdice { background-color: #D6ADFF; position: absolute; left: auto; right: auto; width: 60%; text-align: center; height: 50px;
-margin: 50px; }
+yourdice { background-color: #D6ADFF; position: absolute; left: auto; right: auto; width: 60%; text-align: center; margin: 50px; }
 yourdice p { display: inline; }
-oppdice { background-color: #D6ADFF; position: absolute; left: auto; right: auto; width: 60%; text-align: center; height: 50px;
-margin: 50px; }
+oppdice { background-color: #D6ADFF; position: absolute; left: auto; right: auto; width: 60%; text-align: center; margin: 50px; }
 yourdice p { display: inline; }
 #invis { visibility: hidden; }
