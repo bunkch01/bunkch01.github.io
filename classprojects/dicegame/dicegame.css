@@ -5,3 +5,4 @@ colour { background-color: #D6ADFF; }
 yourdice { background-color: #D6ADFF; position: static; left: auto; right: auto; text-align: center; }
 oppdice { background-color: #D6ADFF; position: static; left: auto; right: auto; text-align: center; }
 #invis { visibility: hidden; }
+results { text-align: center; }
