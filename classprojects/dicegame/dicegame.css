@@ -1,5 +1,5 @@
 body { background-color: #DEFAFA; }
 h1 { text-align: center; }
-yourdice { background-color: #D6ADFF; position: absolute; left: auto; right: auto; width: 60%; text-align: center; }
-oppdice { background-color: #D6ADFF; position: absolute; left: auto; right: auto; width: 60%; text-align: center; top: 100px;}
+yourdice { background-color: #D6ADFF; position: static; left: auto; right: auto; text-align: center; }
+oppdice { background-color: #D6ADFF; position: static; left: auto; right: auto; text-align: center; }
 #invis { visibility: hidden; }
