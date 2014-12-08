@@ -1,10 +1,10 @@
 rollDiceFunc = function() { 
-yd1roll = Math.floor(Math.random()*6);
-yd2roll = Math.floor(Math.random()*6);
-yd3roll = Math.floor(Math.random()*6);
-od1roll = Math.floor(Math.random()*6);
-od2roll = Math.floor(Math.random()*6);
-od3roll = Math.floor(Math.random()*6);
+yd1roll = Math.floor((Math.random()*6)+1);
+yd2roll = Math.floor((Math.random()*6)+1);
+yd3roll = Math.floor((Math.random()*6)+1);
+od1roll = Math.floor((Math.random()*6)+1);
+od2roll = Math.floor((Math.random()*6)+1);
+od3roll = Math.floor((Math.random()*6)+1);
 ydrolltot = yd1roll + yd2roll + yd3roll;
 odrolltot = od1roll + od2roll + od3roll;
 yd1res = document.getElementById("yd1");
