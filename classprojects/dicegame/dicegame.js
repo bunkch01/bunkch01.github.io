@@ -19,6 +19,6 @@ yd3res.innerHTML = yd3roll;
 od1res.innerHTML = od1roll;
 od2res.innerHTML = od2roll
 od3res.innerHTML = od3roll;
-if (ydrolltot >= odrolltot) { document.getElementById(res).innerHTML = "You Win!"; }
-else { document.getElementById(res).innerHTML = "You Lose!"; }
+if (ydrolltot >= odrolltot) { document.getElementById("res").innerHTML = "You Win!"; }
+else { document.getElementById("res").innerHTML = "You Lose!"; }
 }
