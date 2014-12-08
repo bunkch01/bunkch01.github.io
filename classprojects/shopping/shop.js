@@ -8,4 +8,5 @@ liContents = document.createTextNode(grocItem);
 listLi.appendChild(liContents);
 list.appendChild(liCheck);
 list.appendChild(listLi);
+grocItem.value = "";
 }
