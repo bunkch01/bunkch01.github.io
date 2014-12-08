@@ -9,5 +9,5 @@ listLi.appendChild(liContents);
 list.appendChild(liCheck);
 list.appendChild(listLi);
 resetBox = document.getElementById("groceryItem");
-resetBox.setAttribute("value", "");
+resetBox.value = "";
 }
