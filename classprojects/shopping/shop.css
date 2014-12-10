@@ -4,6 +4,7 @@ body { background-color: #4DB14D; background-image: url(http://i.imgur.com/lDUqC
 .canned { color: #000000; }
 .dry { color: #66ccff; }
 .dairy { color : #ffff66; }
-.purchased { list-style-type: square; text-decoration: line-through; }
+.done { list-style-type: square; text-decoration: line-through; }
+input { display: inline; }
 h1 { color: #ff00ff; font-size: 60pt; }
 li { font-size: x-large; }
