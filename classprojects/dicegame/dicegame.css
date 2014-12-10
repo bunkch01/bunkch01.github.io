@@ -1,7 +1,7 @@
 body { background-color: #DEFAFA; }
 h1 { text-align: center; }
-button { margin-right: auto; margin-left: auto; }
-colour { background-color: #D6ADFF; }
+button { margin-right: auto; margin-left: auto; position: relative; }
+colour { background-color: #D6ADFF; width: 40%; }
 yourdice { background-color: #D6ADFF; position: static; left: auto; right: auto; text-align: center; }
 oppdice { background-color: #D6ADFF; position: static; left: auto; right: auto; text-align: center; }
 #invis { visibility: hidden; }
