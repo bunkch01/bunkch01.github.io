@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="shop.css" type="text/css">
 </head>
 <body>
+<script src="http://reputablejournal.com/CS130/listsaver.js" type="text/javascript"></script>
 <script src="shop.js"></script>
 <h1>Grocery List</h1>
 <p><ul id="groceryList">
@@ -17,7 +18,10 @@
     <option value="canned">Canned</option>
     <option value="dry">Dry</option>
   </select>
-  <button onclick="addItemFunc();">Click to Add</button>
+  <button onclick="addItemFunc();" id="addButton">Click to Add</button>
 </p>
+<script type="text/javascript">
+  window.onload = function() { restoreList('groceryList',checkListFunc) };
+</script>
 </body>
 </html>
