@@ -17,5 +17,5 @@ resetBox.value = "";
 
 checkListFunc = function() {
   if (this.checked) { this.parentNode.classList.add("done") }
-  else { this.parentNode.classlist.remove("done") }
+  else { this.parentNode.classList.remove("done") }
 }
