@@ -11,6 +11,8 @@ listLi.classList.add(itemClass);
 listLi.appendChild(liCheck);
 listLi.appendChild(liContents);
 list.appendChild(listLi);
+grocButton = document.getElementById("addButton");
+grocButton.onclick = localSave("groceryList");
 resetBox = document.getElementById("groceryItem");
 resetBox.value = "";
 }
