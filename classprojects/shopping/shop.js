@@ -16,6 +16,6 @@ resetBox.value = "";
 }
 
 checkListFunc = function() {
-  if (this.checked = true) { this.parentNode.classList.add("done") }
-  else if (this.checked = false) { this.parentNode.classlist.remove("done") }
+  if (this.checked) { this.parentNode.classList.add("done") }
+  else if (this.checked) { this.parentNode.classlist.remove("done") }
 }
